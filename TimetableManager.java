@@ -39,6 +39,7 @@ public class TimetableManager {
         }
     }
 
+    
     static void initializeTimetable() {
         for (String[] day : timetable) {
             Arrays.fill(day, "-"); // Initialize all slots with "-"
@@ -107,13 +108,13 @@ public class TimetableManager {
 
     static String getTimeSlot(int timeSlot) {
         // Convert time slot index to corresponding time
-        double startHour = 8.30;
-        int startMinute = 40;
-        int slotDuration = 80; // 1 hour 30 minutes
+        int startHour = 8;
+        int startMinute = 30;
+        int slotDuration = 90; // 1 hour 30 minutes
 
-        double totalMinutes = (startHour * 60 + startMinute) + (timeSlot * slotDuration);
-        double hours = totalMinutes / 60;
-        double minutes = totalMinutes % 60;
+        int totalMinutes = (startHour * 60 + startMinute) + (timeSlot * slotDuration);
+        int hours = totalMinutes / 60;
+        int minutes = totalMinutes % 60;
 
         return String.format("%02d:%02d", hours, minutes);
     }
