@@ -58,23 +58,36 @@ class TimetableManager {
         System.out.println("7. Data Communication and Networking     ");
         System.out.println("8. Operating Systems                     ");
     }
-
+    
+    private static int countOccurrences(String subject) {
+        int count = 0;
+        for (List<String> day : timetable) {
+            for (String slot : day) {
+                if (slot.equals(subject)) {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+    
     private static void addSubject(Scanner scanner) {
         System.out.println("\nAvailable subjects:");
         displaySubjects();
-
         System.out.print("\nEnter subject number: ");
         int subjectNumber = scanner.nextInt();
-
+    
         String subject = getSubjectByNumber(subjectNumber);
         if (subject != null) {
             System.out.print("Enter day (1-5 for Mon-Fri): ");
             int day = scanner.nextInt() - 1;
-
+    
             System.out.print("Enter time slot (1-4): ");
             int timeSlot = scanner.nextInt() - 1;
-
-            if (isValidSlot(day, timeSlot) && !isSlotFilled(day, timeSlot)) {
+    
+            if (countOccurrences(subject) >= 2) {
+                System.out.println("\nThis subject is already taken.");
+            } else if (isValidSlot(day, timeSlot) && !isSlotFilled(day, timeSlot)) {
                 timetable.get(day).set(timeSlot, subject);
                 // Automatically schedule the same subject on the corresponding day
                 timetable.get(getCorrespondingDay(day)).set(timeSlot, subject);
@@ -167,7 +180,7 @@ class TimetableManager {
         int hours = totalMinutes / 60;
         int minutes = totalMinutes % 60;
 
-        // If the hour is 13 (1 PM), add the lunch duration to totalMinutes
+        // If the hour is 1 PM, add the lunch duration to totalMinutes
         if (hours == 13) {
             totalMinutes = 14 * 60;
 
