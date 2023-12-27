@@ -11,6 +11,7 @@
 |------------- | ---------------------------------------------------------------|
 |Anis          | add subject method,display subject                             |
 |Hajar         | function for add and drop method,TestSchedulingSystem class    |
+                 ,class diagram
 |Lyana         | drop subject,displayschedule                                   |
 
 
