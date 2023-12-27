@@ -14,19 +14,22 @@
 |Lyana         | drop subject,displayschedule                                   |
 
 
+
+### Description of our case study (SchedulingSystem)
+
 In SchedulingSytem.java. in this case study, we build a simple scheduling system where the user able to add subjects, drop subjects, display timetable and exit the program. We have fulfill all the requirements neeeded. It contains 25 slots in a week from Monday to Friday excluding lunch time. For add subject function, 1 subject only have 2 meetings in a week. The next class will be scheduled the day after the first class of the week. For drop subject function, user can drop subjects after adding the subject into schedule. However, drop function only works to subject that available in the slot that user selected. For display subject, there will be day, time and courses that user have added into the schedulingsystem.
 
 
-+----------------------------------------+
+
 |   SchedulingSystem                     |
-+----------------------------------------+
+|----------------------------------------|
 | - DAYS: int                            |
 | - TIMESLOTS: int                       |
 | - SLOT_DURATION: int                   |
 | - START_HOUR: int                      |
 | - START_MINUTE: int                    |
 | - schedule: List<List<String>>         |
-+----------------------------------------+
+|----------------------------------------|
 | + SchedulingSystem()                   |
 | + initializeSchedule(): void           |
 | + displaySubjects(): void              |
@@ -40,12 +43,12 @@ In SchedulingSytem.java. in this case study, we build a simple scheduling system
 | + displaySchedule(): void              |
 | + getSchedule(): List<List<String>>    |
 | + setSchedule(List<List<String>>): void|
-+----------------------------------------+
 
-+------------------------------+
+
+
 |   TestTimetable              |
-+------------------------------+
+|------------------------------|
 |                              |
-+------------------------------+
+|------------------------------|
 | + main(args: String[]): void |
-+------------------------------+
+
