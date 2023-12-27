@@ -22,13 +22,12 @@ In SchedulingSytem.java. in this case study, we build a simple scheduling system
 
 
 |   SchedulingSystem                     |
-|----------------------------------------|
 | - DAYS: int                            |
-| - TIMESLOTS: int                       |
-| - SLOT_DURATION: int                   |
-| - START_HOUR: int                      |
-| - START_MINUTE: int                    |
-| - schedule: List<List<String>>         |
+  - TIMESLOTS: int                       
+  - SLOT_DURATION: int                   
+  - START_HOUR: int                      
+  - START_MINUTE: int                    
+  - schedule: List<List<String>>         
 |----------------------------------------|
 | + SchedulingSystem()                   |
 | + initializeSchedule(): void           |
