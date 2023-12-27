@@ -20,7 +20,7 @@
 In SchedulingSytem.java. in this case study, we build a simple scheduling system where the user able to add subjects, drop subjects, display timetable and exit the program. We have fulfill all the requirements neeeded. It contains 25 slots in a week from Monday to Friday excluding lunch time. For add subject function, 1 subject only have 2 meetings in a week. The next class will be scheduled the day after the first class of the week. For drop subject function, user can drop subjects after adding the subject into schedule. However, drop function only works to subject that available in the slot that user selected. For display subject, there will be day, time and courses that user have added into the schedulingsystem.
 
 
-Click [here]([file:///C:/Users/60166/Downloads/SchedulingSystem%20Class%20Diagram.pdf](https://drive.google.com/drive/u/0/home)https://drive.google.com/drive/u/0/home) to see the uml diagram.
+Click [here]([[file:///C:/Users/60166/Downloads/SchedulingSystem%20Class%20Diagram.pdf](https://drive.google.com/drive/u/0/home)https://drive.google.com/drive/u/0/home](https://drive.google.com/file/d/13SosHiw4CxR7m9tWG8WuWuTO9LF1n5oc/view?usp=drive_link)https://drive.google.com/file/d/13SosHiw4CxR7m9tWG8WuWuTO9LF1n5oc/view?usp=drive_link) to see the uml diagram.
 
 
 
