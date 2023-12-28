@@ -2,16 +2,19 @@
 ## GROUP 4
 
 ### Group Member
+
 * PUTERI ANIS BINTI KHALIB (2218000)
 * SITI HAJAR 'AAINAA BINTI HAMID (2218648)
 * NURLYANA IZZATI BINTI RAHMAT (2227066)
 
 
+
+
 |    Name      |     Task                                                                    |
 |------------- | ----------------------------------------------------------------------------|
-|Anis          | add subject method,display subject                                          |
-|Hajar         | function for add and drop method,TestSchedulingSystem class,class diagram   |
-|Lyana         | drop subject,displayschedule                                                |
+|Anis          | add subject method,display subject,                                         |
+|Hajar         | drop subject method,class diagram                                           |
+|Lyana         | getTimeslot,displayschedule,TestSchedule class                              |
 
 
 
