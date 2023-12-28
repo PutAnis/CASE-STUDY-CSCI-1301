@@ -28,9 +28,7 @@
 |              |                          |- Uses a Scanner to interactively manage the scheduling system through a menu:                                               |
 |              |                           |(add subject, drop subject, display schedule, exit).                                                                        |
 |              |                                                                                                                                                        |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-### OUTPUT
 
 * DISPLAY SUBJECT
   ![Screenshot (337)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/196223c7-297d-48ed-be6f-6c6f5744bff6)
