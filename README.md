@@ -12,23 +12,23 @@
 
 
 |    Name      |     Task                                                                    |
-|------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Anis           1. Add subject method - Allows users to add subjects to their schedule. It takes input for subject number, day, and timeslot, and checks for validity. |
-|                2. display subject - Prints a list of available subjects.                                                                                             |
-|                3. Add (countOccurrences()) - Counts the occurrences of a specific subject in the schedule.                                                           |
-|                4. isSlotFilled() - Checks if a specific timeslot on a given day is already filled.                                                                   |
-|                                                                                                                                                                      |
-|Hajar          1. Drop subject method - Allows users to drop subjects from their schedule.                                                                            |
-|                2. getCorrespondingDay() - Returns the corresponding day for a given day to handle two-day slots                                                      |
-|                3. getSubjectByNumber() - Returns the subject name based on the subject number                                                                        |
-|                                                                                                                                                                      |
-|Lyana          1. getTimeslot methods -  Returns the formatted time slot based on the given timeslot                                                                  |
-|                2. displayschedule - Displays the complete schedule, showing days, timeslots, and subjects.                                                           |
-|                3. TestSchedule class   - Creates an instance of SchedulingSystem.                                                                                    |
-|                                        |- Uses a Scanner to interactively manage the scheduling system through a menu:                                               |
-|                                         |(add subject, drop subject, display schedule, exit).                                                                        |
-|                                                                                                                                                                      |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Anis          |  1. Add subject method - Allows users to add subjects to their schedule. It takes input for subject number, day, and timeslot, and checks for validity.|
+|              |  2. display subject - Prints a list of available subjects.                                                                                             |
+|              |  3. Add (countOccurrences()) - Counts the occurrences of a specific subject in the schedule.                                                           |
+|              |  4. isSlotFilled() - Checks if a specific timeslot on a given day is already filled.                                                                   |
+|              |                                                                                                                                                        |
+|Hajar         |  1. Drop subject method - Allows users to drop subjects from their schedule.                                                                           |
+|              |  2. getCorrespondingDay() - Returns the corresponding day for a given day to handle two-day slots                                                      |
+|              |  3. getSubjectByNumber() - Returns the subject name based on the subject number                                                                        |
+|              |                                                                                                                                                        |
+|Lyana         |  1. getTimeslot methods -  Returns the formatted time slot based on the given timeslot                                                                 |
+|              |  2. displayschedule - Displays the complete schedule, showing days, timeslots, and subjects.                                                           |
+|              |  3. TestSchedule class   - Creates an instance of SchedulingSystem.                                                                                    |
+|              |                          |- Uses a Scanner to interactively manage the scheduling system through a menu:                                               |
+|              |                           |(add subject, drop subject, display schedule, exit).                                                                        |
+|              |                                                                                                                                                        |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### OUTPUT
 
