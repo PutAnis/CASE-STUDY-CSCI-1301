@@ -13,7 +13,7 @@
 
 |    Name      |     Task                                                                    |
 |------------- | ----------------------------------------------------------------------------|
-|Anis          | add subject method, display subject,                                         |
+|Anis          | add subject method, display subject, add (countOccurrences(subject) >= 2) method                                        |
 |Hajar         | drop subject method, class diagram, add getCorrespondingDay method                                           |
 |Lyana         | getTimeslot methods, displayschedule, TestSchedule class                              |
 
