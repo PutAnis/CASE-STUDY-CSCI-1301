@@ -25,8 +25,8 @@
 |Lyana         |  1. getTimeslot methods -  Returns the formatted time slot based on the given timeslot                                                                 |
 |              |  2. displayschedule - Displays the complete schedule, showing days, timeslots, and subjects.                                                           |
 |              |  3. TestSchedule class   - Creates an instance of SchedulingSystem.                                                                                    |
-|              |                          |- Uses a Scanner to interactively manage the scheduling system through a menu:                                               |
-|              |                           |(add subject, drop subject, display schedule, exit).                                                                        |
+|              |                          - Uses a Scanner to interactively manage the scheduling system through a menu:                                               |
+|              |                          - (add subject, drop subject, display schedule, exit).                                                                        |
 |              |                                                                                                                                                        |
 
 
