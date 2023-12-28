@@ -17,17 +17,49 @@
 |Lyana         | getTimeslot methods, displayschedule, TestSchedule class                              |
 
 ### OUTPUT
-* ADD
-* first output
+
+* DISPLAY SUBJECT
   ![Screenshot (337)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/196223c7-297d-48ed-be6f-6c6f5744bff6)
+  
+* ADD
+  
 * successfully added
   ![Screenshot (338)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/5c077bc2-4ab0-4ce7-89ae-1b6bca9f095e)
+  
 * invalid number
   ![Screenshot (339)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/a70a43c6-a1d8-4235-a8a1-342e8fab0648)
+  
 * invalid character - exception
   ![Screenshot (340)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/9a669a4c-793b-43e8-b344-f3d3f6f05551)
+  
+* overlapping with another subject 
+  ![Screenshot (347)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/ca1ea8bc-4c89-49e1-aa01-f03b643a431e)
 
- 
+
+* DROP
+* 
+* successful dropped
+  ![Screenshot (351)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/82d4ec3a-7da8-4607-84ac-e2e39c88345d)
+  
+* subject not available, invalid number
+  ![Screenshot (352)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/a67e917d-dc43-484f-b0e7-502f0a4a4868)
+  
+* invalid character - exception
+  ![Screenshot (342)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/d94b47c9-2b8b-4279-b1b6-87105cd673b6)
+
+* DISPLAY
+  
+* blank display
+![Screenshot (345)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/a441dd9b-e3cc-4f68-bf1b-831cf5f17302)
+![Screenshot (346)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/2617db19-ad74-43fe-a07e-e3fba4873987)
+
+* display filled schedule
+  ![Screenshot (349)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/2b452aa2-6bd3-4193-a0c8-bd90f73c10ee)
+
+* invalid number, invalid character, EXIT
+  ![Screenshot (350)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/c9e2884f-6b74-45af-a973-3682c38915ca)
+
+
 
 
   
