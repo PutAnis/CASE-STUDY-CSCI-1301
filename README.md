@@ -12,10 +12,23 @@
 
 
 |    Name      |     Task                                                                    |
-|------------- | ----------------------------------------------------------------------------|
-|Anis          | add subject method, display subject, add (countOccurrences(subject) >= 2) method                                        |
-|Hajar         | drop subject method, class diagram, add getCorrespondingDay method                                           |
-|Lyana         | getTimeslot methods, displayschedule, TestSchedule class                              |
+|------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Anis          | 1. Add subject method - Allows users to add subjects to their schedule. It takes input for subject number, day, and timeslot, and checks for validity.
+                 2. display subject - Prints a list of available subjects.
+                 3. Add (countOccurrences()) - Counts the occurrences of a specific subject in the schedule.   
+                 4. isSlotFilled() - Checks if a specific timeslot on a given day is already filled.
+
+|Hajar         | 1. Drop subject method - Allows users to drop subjects from their schedule.
+                 2. getCorrespondingDay() - Returns the corresponding day for a given day to handle two-day slots 
+                 3. getSubjectByNumber() - Returns the subject name based on the subject number
+                                       
+|Lyana         | 1. getTimeslot methods -  Returns the formatted time slot based on the given timeslot
+                 2. displayschedule - Displays the complete schedule, showing days, timeslots, and subjects.
+                 3. TestSchedule class   - Creates an instance of SchedulingSystem.
+                                        - Uses a Scanner to interactively manage the scheduling system through a menu:
+                                         (add subject, drop subject, display schedule, exit).
+  
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### OUTPUT
 
@@ -64,7 +77,6 @@
 
 
   
-
 ### Description of our case study (SchedulingSystem)
 
 In this case study named SchedulingSytem.java., we build a simple scheduling system where the user can add subjects, drop subjects, display the timetable, and exit the program. We have fulfilled all the requirements needed. It contains 25 slots a week from Monday to Friday excluding lunch time. For the add subject function, 1 subject only has 2 meetings in a week. The next class will be scheduled the day after the week's first class. For the drop subject function, the user can drop subjects after adding the subject to the schedule. However, the drop function only works for the subject that is available in the slot that the user selected. For display subjects, there will be days, times, and courses that the user has added to the scheduling system.
@@ -72,7 +84,7 @@ In this case study named SchedulingSytem.java., we build a simple scheduling sys
 
 ### UML Diagram
 
-Click [here](https://docs.google.com/document/d/1wJ1k63Lei8IN5_jhUbLCwi7x17IkyVtz002gFg-nlGM/edit?addon_store) to see the UML diagram.
+![Screenshot (355)](https://github.com/PutAnis/CASE-STUDY-CSCI-1301/assets/148199929/ed27d8ff-c1ed-4d30-b0e2-fa82ec2e8e9d)
 
 
 ### REFERENCES
