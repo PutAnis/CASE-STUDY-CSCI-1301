@@ -14,7 +14,7 @@
 |    Name      |     Task                                                                    |
 |------------- | ----------------------------------------------------------------------------|
 |Anis          | add subject method, display subject,                                         |
-|Hajar         | drop subject method, class diagram                                           |
+|Hajar         | drop subject method, class diagram, add getCorrespondingDay method                                           |
 |Lyana         | getTimeslot methods, displayschedule, TestSchedule class                              |
 
 ### OUTPUT
